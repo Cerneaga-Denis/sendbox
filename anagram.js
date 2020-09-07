@@ -10,6 +10,19 @@ function aclean(arr) {
   return Array.from(map.values());
 }
 
+// const aclean = (arr) => {
+//   let set = new Set();
+
+//   return arr.filter((item) => {
+//     let sortedItem = Array.from(item.toLowerCase()).sort().join("");
+
+//     if (!set.has(sortedItem)) {
+//       set.add(sortedItem);
+//       return item;
+//     }
+//   });
+// };
+
 let arr = [
   "nap",
   "teachers",
